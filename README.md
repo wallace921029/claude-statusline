@@ -1,3 +1,5 @@
+**English** | [简体中文](README.zh-CN.md)
+
 Fork form [https://github.com/nilbuild/claude-statusline](https://github.com/nilbuild/claude-statusline)
 
 For Windows PowerShell, add the following code snippet to `setting.json`  
