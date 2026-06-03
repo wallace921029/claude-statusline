@@ -11,7 +11,7 @@ For Windows PowerShell, add the following code snippet to `setting.json`
 }
 ```
 
-For macOS Terminal, add the following code snippet to `setting.json`  
+For macOS/Ubuntu Terminal, add the following code snippet to `setting.json`  
 
 ```json
 {
@@ -21,7 +21,8 @@ For macOS Terminal, add the following code snippet to `setting.json`
   }
 }
 ```
-> Verify your script is executable: chmod +x ~/.claude/statusline.sh
+> Verify your script is executable: chmod +x ~/.claude/statusline.sh  
+> The script depends on `jq`; if it is not installed, please install it first.
 
 Read the official documents for all details:   
 https://code.claude.com/docs/en/statusline
