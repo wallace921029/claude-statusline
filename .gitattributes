@@ -1,0 +1,5 @@
+# Shell scripts must always use LF, otherwise bash on Linux/WSL/macOS breaks
+*.sh text eol=lf
+
+# PowerShell scripts stay CRLF on Windows
+*.ps1 text eol=crlf
